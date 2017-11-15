@@ -53,4 +53,5 @@ if m == 4:
     print(s)
     print("In print options select 4 to a page, double sided, open to top (short side)")
 
-
+else:
+    raise ValueError("Invalid inputs")
